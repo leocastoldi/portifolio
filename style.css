@@ -161,7 +161,7 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-red);
+  color: var(--main-white);
 }
 
 /* Projects section */
@@ -241,6 +241,8 @@ img {
   font-size: 2rem;
   background: var(--main-gray);
   transition: background 0.3s ease-out;
+  justify-content: center;
+  
 }
 
 .btn-show-all:hover {

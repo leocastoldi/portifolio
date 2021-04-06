@@ -1,9 +1,19 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Leo Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Leo Portfolio</title>
+  <title>Leo Castoldi Personal Portfolio</title>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./style.css">
 
@@ -11,118 +21,126 @@
 
 <body>
   <!-- partial:index.partial.html -->
-  <!DOCTYPE html>
-  <html lang="en">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+  <!-- START NAV -->
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Leo Castoldi Personal Portfolio</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="./style.css">
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-  </head>
+  <!-- END NAV -->
 
-  <body>
-    <!-- partial:index.partial.html -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
-    <!-- START NAV -->
+  <!-- START WELCOME SECTION -->
 
-    <nav id="navbar" class="nav">
-      <ul class="nav-list">
-        <li>
-          <a href="#welcome-section">About</a>
-        </li>
-        <li>
-          <a href="#projects">Work</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hello Word</h1>
+    <p> I am a Business Manager studying and tracking my knowledge to become a Web Developer</p>
+  </section>
 
-    <!-- END NAV -->
+  <!-- END WELCOME SECTION -->
 
-    <!-- START WELCOME SECTION -->
+  <!-- START PROJECTS SECTION -->
 
-    <section id="welcome-section" class="welcome-section">
-      <h1>Hello Word</h1>
-      <p> I am a Business Manager studying and tracking my knowledge to become a Web Developer</p>
-    </section>
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">These are some of my projects</h2>
+<!-- START  indvidual PROJECTS -->
+    <div class="projects-grid">
+      <a href="https://frentistaonline.netlify.app" target="_blank" class="project project-tile">
+        <img class="project-image"
+          src="https://user-images.githubusercontent.com/53437698/113293867-b2761980-92cc-11eb-9bab-a88a2e03bba1.png"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Frentista Online
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+      <!-- Finish indvidual PROJECTS -->
+      <a href="https://leocastoldi.github.io/Devifinance/" target="_blank" class="project project-tile">
+        <img class="project-image"
+          src="https://user-images.githubusercontent.com/53437698/113299150-f23fff80-92d2-11eb-8a74-550c87e110c0.png"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          DevFinance
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <!-- START  indvidual PROJECTS -->
+      <a href="https://leocastoldi.github.io/CurlyHoward/" target="_blank" class="project project-tile">
+        <img class="project-image"
+          src="https://user-images.githubusercontent.com/53437698/113420557-ed954d00-939f-11eb-977f-9a4bd5d67e34.png"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tributo Curly Howard
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      
+      <!-- Finish indvidual PROJECTS -->
+    </div>
 
-    <!-- END WELCOME SECTION -->
+    <a href="https://github.com/leocastoldi" class="btn btn-show-all" target="_blank">Show all<i
+        class="fas fa-chevron-right"></i></a>
+  </section>
 
-    <!-- START PROJECTS SECTION -->
+  <!-- END PROJECTS SECTION -->
 
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">These are some of my projects</h2>
+  <!-- START CONTACT SECTION -->
 
-      <div class="projects-grid">
-        <a href="https://frentistaonline.netlify.app" target="_blank" class="project project-tile">
-          <img class="project-image"
-            src="https://user-images.githubusercontent.com/53437698/113293867-b2761980-92cc-11eb-9bab-a88a2e03bba1.png"
-            alt="project" />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Frentista Online
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a href="https://leocastoldi.github.io/Devifinance/" target="_blank" class="project project-tile">
-          <img class="project-image"
-            src="https://user-images.githubusercontent.com/53437698/113299150-f23fff80-92d2-11eb-8a74-550c87e110c0.png"
-            alt="project" />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            DevFinance
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-      </div>
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+    <div class="contact-links">
+      <a href="https://facebook.com/leocastoldi" target="_blank" class="btn contact-details"><i
+          class="fab fa-facebook-square"></i> Facebook</a>
+      <a id="profile-link" href="https://github.com/leocastoldi" target="_blank" class="btn contact-details"><i
+          class="fab fa-github"></i> GitHub</a>
+      <a href="https://twitter.com/leocastoldi" target="_blank" class="btn contact-details"><i
+          class="fab fa-twitter"></i> Twitter</a>
+      <a href="mailto:leocastoldi@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
 
-      <a href="https://github.com/leocastoldi" class="btn btn-show-all" target="_blank">Show all<i
-          class="fas fa-chevron-right"></i></a>
-    </section>
+    </div>
+  </section>
 
-    <!-- END PROJECTS SECTION -->
+  <!-- END CONTACT SECTION -->
 
-    <!-- START CONTACT SECTION -->
+  <!-- START FOOTER SECTION -->
 
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Let's work together...</h2>
-        <p>How do you take your coffee?</p>
-      </div>
-      <div class="contact-links">
-        <a href="https://facebook.com/leocastoldi" target="_blank" class="btn contact-details"><i
-            class="fab fa-facebook-square"></i> Facebook</a>
-        <a id="profile-link" href="https://github.com/leocastoldi" target="_blank" class="btn contact-details"><i
-            class="fab fa-github"></i> GitHub</a>
-        <a href="https://twitter.com/leocastoldi" target="_blank" class="btn contact-details"><i
-            class="fab fa-twitter"></i> Twitter</a>
-        <a href="mailto:leocastoldi@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+  <footer>
+    <p>
+      &copy; Created for
+      <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+    </p>
+  </footer>
 
-      </div>
-    </section>
+  <!-- END FOOTER SECTION -->
+  <!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+  <script src="./script.js"></script>
 
-    <!-- END CONTACT SECTION -->
+</body>
 
-    <!-- START FOOTER SECTION -->
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
 
-    <footer>
-      <p>
-        &copy; Created for
-        <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
-      </p>
-    </footer>
-
-    <!-- END FOOTER SECTION -->
-    <!-- partial -->
-    <script src="./script.js"></script>
-
-  </body>
-
-  </html>
+</body>
+</html>
